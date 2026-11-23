@@ -1,0 +1,21 @@
+# MSL cases: Media.Examples
+
+- `templates/MslCases/IdealGasH2O_304.mo` — 理想气体水蒸气热力学状态平滑过渡仿真 — `Modelica.Media.Examples.IdealGasH2O`
+- `templates/MslCases/MixtureGases_305.mo` — 双腔室气体混合与状态平滑测试 — `Modelica.Media.Examples.MixtureGases`
+- `templates/MslCases/MoistAir_306.mo` — 湿空气热力学状态平滑过渡仿真 — `Modelica.Media.Examples.MoistAir`
+- `templates/MslCases/PsychrometricData_307.mo` — 湿空气焓湿图数据生成模型 — `Modelica.Media.Examples.PsychrometricData`
+- `templates/MslCases/R134a1_308.mo` — 请基于 Modelica 标准库（MSL 4.0）构建一个用于验证 R134a 制冷剂物性计算的测试模型。该模型旨在模拟 — `Modelica.Media.Examples.R134a.R134a1`
+- `templates/MslCases/R134a2_309.mo` — 请基于 Modelica 标准库（MSL 4.0）构建一个用于验证 R134a 制冷剂热力学特性的测试模型。该模型旨在模 — `Modelica.Media.Examples.R134a.R134a2`
+- `templates/MslCases/DryAir1_310.mo` — 请基于 Modelica 标准库（MSL 4.0）构建一个用于验证干空气物性计算的测试模型。该模型旨在模拟一个封闭的刚性 — `Modelica.Media.Examples.ReferenceAir.DryAir1`
+- `templates/MslCases/DryAir2_311.mo` — 请基于 Modelica 标准库（MSL 4.0）构建一个干空气热力学测试模型，用于验证空气物性计算在特定工况下的表现。 — `Modelica.Media.Examples.ReferenceAir.DryAir2`
+- `templates/MslCases/Inverse_sh_T_312.mo` — 基于参考空气模型的热力学状态逆解与验证 — `Modelica.Media.Examples.ReferenceAir.Inverse_sh_T`
+- `templates/MslCases/Inverse_sh_TX_313.mo` — 湿空气热力学状态逆求解验证 — `Modelica.Media.Examples.ReferenceAir.Inverse_sh_TX`
+- `templates/MslCases/MoistAir_314.mo` — 请基于 Modelica 标准库（MSL 4.0）构建一个湿空气热力学状态演化示例模型。该模型旨在演示湿空气介质在特定边 — `Modelica.Media.Examples.ReferenceAir.MoistAir`
+- `templates/MslCases/MoistAir1_315.mo` — 湿空气系统基础仿真建模 — `Modelica.Media.Examples.ReferenceAir.MoistAir1`
+- `templates/MslCases/MoistAir2_316.mo` — 请基于 Modelica 标准库（MSL 4.0）构建一个用于验证湿空气物性计算的测试模型。该模型旨在模拟一个封闭或半封 — `Modelica.Media.Examples.ReferenceAir.MoistAir2`
+- `templates/MslCases/SimpleLiquidWater_317.mo` — 请基于 Modelica 标准库（MSL 4.0）中的 `ConstantPropertyLiquidWater` 介质 — `Modelica.Media.Examples.SimpleLiquidWater`
+- `templates/MslCases/InverseIncompressible_sh_T_318.mo` — 不可压缩介质物性逆运算验证模型 — `Modelica.Media.Examples.SolveOneNonlinearEquation.InverseIncompressible_sh_T`
+- `templates/MslCases/Inverse_sh_T_319.mo` — 理想气体热力学性质逆解验证 — `Modelica.Media.Examples.SolveOneNonlinearEquation.Inverse_sh_T`
+- `templates/MslCases/Inverse_sh_TX_320.mo` — 理想气体逆向热力学状态求解 — `Modelica.Media.Examples.SolveOneNonlinearEquation.Inverse_sh_TX`
+- `templates/MslCases/TestTwoPhaseStates_321.mo` — 请基于 Modelica 标准库（MSL 4.0）构建一个用于验证两相水物性模型动态响应的测试模型。该模型旨在模拟工质在 — `Modelica.Media.Examples.TwoPhaseWater.TestTwoPhaseStates`
+- `templates/MslCases/WaterIF97_322.mo` — 请基于 Modelica 标准库（MSL 4.0）构建一个封闭水容器的热力学仿真模型，用于演示 IF97 水介质在变工况 — `Modelica.Media.Examples.WaterIF97`

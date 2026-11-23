@@ -1,0 +1,35 @@
+# MSL cases: Electrical.Machines
+
+- `templates/MslCases/DCEE_Start_75.mo` — 电励磁直流电机启动与负载阶跃仿真 — `Modelica.Electrical.Machines.Examples.DCMachines.DCEE_Start`
+- `templates/MslCases/DCPM_Cooling_76.mo` — 直流永磁电机冷却系统建模 — `Modelica.Electrical.Machines.Examples.DCMachines.DCPM_Cooling`
+- `templates/MslCases/DCPM_CurrentControlled_77.mo` — 永磁直流电机电流闭环启动仿真 — `Modelica.Electrical.Machines.Examples.DCMachines.DCPM_CurrentControlled`
+- `templates/MslCases/DCPM_QuasiStatic_78.mo` — 直流永磁电机瞬态与准静态模型对比仿真 — `Modelica.Electrical.Machines.Examples.DCMachines.DCPM_QuasiStatic`
+- `templates/MslCases/DCPM_Start_79.mo` — 永磁直流电机斜坡启动与负载阶跃仿真 — `Modelica.Electrical.Machines.Examples.DCMachines.DCPM_Start`
+- `templates/MslCases/DCPM_Temperature_80.mo` — 直流永磁电机温升特性仿真 — `Modelica.Electrical.Machines.Examples.DCMachines.DCPM_Temperature`
+- `templates/MslCases/DCPM_withLosses_81.mo` — 直流永磁电机损耗影响对比仿真 — `Modelica.Electrical.Machines.Examples.DCMachines.DCPM_withLosses`
+- `templates/MslCases/DCSE_SinglePhase_82.mo` — 单相交流供电的串励直流电机启动仿真 — `Modelica.Electrical.Machines.Examples.DCMachines.DCSE_SinglePhase`
+- `templates/MslCases/DCSE_Start_83.mo` — 串励直流电机启动仿真 — `Modelica.Electrical.Machines.Examples.DCMachines.DCSE_Start`
+- `templates/MslCases/DC_CompareCharacteristics_84.mo` — 直流电机特性对比仿真 — `Modelica.Electrical.Machines.Examples.DCMachines.DC_CompareCharacteristics`
+- `templates/MslCases/IMC_Conveyor_85.mo` — 感应电机驱动传送带系统建模 — `Modelica.Electrical.Machines.Examples.InductionMachines.IMC_Conveyor`
+- `templates/MslCases/IMC_DOL_86.mo` — 三相鼠笼异步电动机直接启动仿真 — `Modelica.Electrical.Machines.Examples.InductionMachines.IMC_DOL`
+- `templates/MslCases/IMC_Initialize_87.mo` — 请基于 Modelica 标准库（MSL 4.0）搭建一个鼠笼式感应电动机的稳态初始化与负载阶跃响应仿真模型。 — `Modelica.Electrical.Machines.Examples.InductionMachines.IMC_Initialize`
+- `templates/MslCases/IMC_Inverter_88.mo` — 请基于 Modelica 标准库（MSL 4.0）搭建一个鼠笼式感应电机由理想变频逆变器驱动的仿真模型。系统包含以下部分 — `Modelica.Electrical.Machines.Examples.InductionMachines.IMC_Inverter`
+- `templates/MslCases/IMC_InverterDrive_89.mo` — 请基于 Modelica 标准库（MSL 4.0）构建一个完整的三相感应电机逆变器驱动系统仿真模型。系统由电网、整流滤波 — `Modelica.Electrical.Machines.Examples.InductionMachines.IMC_InverterDrive`
+- `templates/MslCases/IMC_Steinmetz_90.mo` — 单相电容启动感应电机仿真建模 — `Modelica.Electrical.Machines.Examples.InductionMachines.IMC_Steinmetz`
+- `templates/MslCases/IMC_Transformer_91.mo` — 鼠笼异步电机经变压器启动及直接切换仿真 — `Modelica.Electrical.Machines.Examples.InductionMachines.IMC_Transformer`
+- `templates/MslCases/IMC_YD_92.mo` — 三相鼠笼感应电机星-三角启动仿真 — `Modelica.Electrical.Machines.Examples.InductionMachines.IMC_YD`
+- `templates/MslCases/IMC_YDarc_93.mo` — 三相鼠笼异步电动机星-三角（Y-D）带弧光延时启动仿真 — `Modelica.Electrical.Machines.Examples.InductionMachines.IMC_YDarc`
+- `templates/MslCases/IMC_withLosses_94.mo` — 带损耗的鼠笼异步电机负载阶跃仿真 — `Modelica.Electrical.Machines.Examples.InductionMachines.IMC_withLosses`
+- `templates/MslCases/IMS_Start_95.mo` — 绕线式感应电机启动仿真 — `Modelica.Electrical.Machines.Examples.InductionMachines.IMS_Start`
+- `templates/MslCases/SMEE_DOL_96.mo` — 电励磁同步电机直接并网启动仿真 — `Modelica.Electrical.Machines.Examples.SynchronousMachines.SMEE_DOL`
+- `templates/MslCases/SMEE_Generator_97.mo` — 电励磁同步发电机并网运行仿真 — `Modelica.Electrical.Machines.Examples.SynchronousMachines.SMEE_Generator`
+- `templates/MslCases/SMPM_Braking_100.mo` — 永磁同步电机再生制动仿真 — `Modelica.Electrical.Machines.Examples.SynchronousMachines.SMPM_Braking`
+- `templates/MslCases/SMPM_CurrentSource_101.mo` — 永磁同步电机恒流源驱动仿真 — `Modelica.Electrical.Machines.Examples.SynchronousMachines.SMPM_CurrentSource`
+- `templates/MslCases/SMPM_Inverter_102.mo` — 永磁同步电机变频启动与负载阶跃仿真 — `Modelica.Electrical.Machines.Examples.SynchronousMachines.SMPM_Inverter`
+- `templates/MslCases/SMPM_NoLoad_103.mo` — 永磁同步电机空载运行建模 — `Modelica.Electrical.Machines.Examples.SynchronousMachines.SMPM_NoLoad`
+- `templates/MslCases/SMPM_ResistiveBraking_104.mo` — 永磁同步电机电阻制动仿真 — `Modelica.Electrical.Machines.Examples.SynchronousMachines.SMPM_ResistiveBraking`
+- `templates/MslCases/SMR_DOL_106.mo` — 凸极同步电机直接启动与负载阶跃仿真 — `Modelica.Electrical.Machines.Examples.SynchronousMachines.SMR_DOL`
+- `templates/MslCases/SMR_Inverter_107.mo` — 磁阻同步电机变频启动与负载阶跃仿真 — `Modelica.Electrical.Machines.Examples.SynchronousMachines.SMR_Inverter`
+- `templates/MslCases/AsymmetricalLoad_108.mo` — 不对称单相负载下的 Dyn 变压器仿真 — `Modelica.Electrical.Machines.Examples.Transformers.AsymmetricalLoad`
+- `templates/MslCases/Rectifier6pulse_109.mo` — 三相二极管整流电路仿真 — `Modelica.Electrical.Machines.Examples.Transformers.Rectifier6pulse`
+- `templates/MslCases/TransformerTestbench_110.mo` — 请基于 Modelica 标准库（MSL 4.0）构建一个三相变压器测试台模型，用于分析 Dy01 连接组别的变压器在对 — `Modelica.Electrical.Machines.Examples.Transformers.TransformerTestbench`

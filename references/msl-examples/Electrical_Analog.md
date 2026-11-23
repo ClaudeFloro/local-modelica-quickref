@@ -1,0 +1,43 @@
+# MSL cases: Electrical.Analog
+
+- `templates/MslCases/AmplifierWithOpAmpDetailed_27.mo` — 请基于 Modelica 标准库（MSL 4.0）构建一个使用详细运算放大器模型（OpAmpDetailed）的简单放大 — `Modelica.Electrical.Analog.Examples.AmplifierWithOpAmpDetailed`
+- `templates/MslCases/CauerLowPassAnalog_28.mo` — 请基于 Modelica 标准库（MSL 4.0）构建一个由模拟元件组成的 Cauer 低通滤波器电路模型。该电路包含两 — `Modelica.Electrical.Analog.Examples.CauerLowPassAnalog`
+- `templates/MslCases/CauerLowPassOPV_29.mo` — 基于运算放大器的Cauer低通滤波器建模 — `Modelica.Electrical.Analog.Examples.CauerLowPassOPV`
+- `templates/MslCases/CauerLowPassSC_30.mo` — 基于开关电容技术的三阶Cauer低通滤波器建模 — `Modelica.Electrical.Analog.Examples.CauerLowPassSC`
+- `templates/MslCases/CharacteristicIdealDiodes_31.mo` — 理想二极管特性对比仿真 — `Modelica.Electrical.Analog.Examples.CharacteristicIdealDiodes`
+- `templates/MslCases/CompareTransformers_32.mo` — 变压器磁化特性对比仿真 — `Modelica.Electrical.Analog.Examples.CompareTransformers`
+- `templates/MslCases/ControlledSwitchWithArc_33.mo` — 请基于 Modelica 标准库（MSL 4.0）构建一个对比电路，用于比较两种受控开关在断开电感负载时的行为差异。系统 — `Modelica.Electrical.Analog.Examples.ControlledSwitchWithArc`
+- `templates/MslCases/DifferenceAmplifier_34.mo` — 请基于 Modelica 标准库（MSL 4.0）搭建一个差分放大器电路模型。该电路由两个 NPN 晶体管（Transi — `Modelica.Electrical.Analog.Examples.DifferenceAmplifier`
+- `templates/MslCases/GenerationOfFMUs_35.mo` — 请基于 Modelica 标准库（MSL 4.0）构建一个包含四个子电路的混合电气系统，用于验证不同电气元件的接口连接方 — `Modelica.Electrical.Analog.Examples.GenerationOfFMUs`
+- `templates/MslCases/HeatingMOSInverter_36.mo` — 请基于 Modelica 标准库（MSL 4.0）构建一个加热 MOS 反相器模型，用于研究温度对电路性能的影响。 — `Modelica.Electrical.Analog.Examples.HeatingMOSInverter`
+- `templates/MslCases/HeatingNPN_NORGate_37.mo` — 请基于 Modelica 标准库（MSL 4.0）构建一个“加热型 NPN NOR 门”的机电热耦合仿真模型。该电路由两 — `Modelica.Electrical.Analog.Examples.HeatingNPN_NORGate`
+- `templates/MslCases/HeatingPNP_NORGate_38.mo` — 请基于 Modelica 标准库（MSL 4.0）搭建一个“加热型 PNP NOR 门”的机电热耦合仿真模型。 — `Modelica.Electrical.Analog.Examples.HeatingPNP_NORGate`
+- `templates/MslCases/HeatingRectifier_39.mo` — 请基于 Modelica 标准库（MSL 4.0）构建一个半波整流加热电路模型。该电路由交流电源、二极管、电容和负载电阻 — `Modelica.Electrical.Analog.Examples.HeatingRectifier`
+- `templates/MslCases/InvertingAmp_40.mo` — 请基于 Modelica 标准库（MSL 4.0）构建一个反相放大器电路模型。系统由一个理想运算放大器、两个电阻、一个梯 — `Modelica.Electrical.Analog.Examples.InvertingAmp`
+- `templates/MslCases/NandGate_41.mo` — CMOS 与非门电路仿真建模 — `Modelica.Electrical.Analog.Examples.NandGate`
+- `templates/MslCases/Adder_42.mo` — 请基于 Modelica 标准库（MSL 4.0）构建一个反相加法器电路模型。该电路利用运算放大器实现两个输入信号的线性 — `Modelica.Electrical.Analog.Examples.OpAmps.Adder`
+- `templates/MslCases/Comparator_43.mo` — 请基于 Modelica 标准库（MSL 4.0）构建一个电压比较器电路模型。该电路由一个理想运算放大器、一个梯形波电压 — `Modelica.Electrical.Analog.Examples.OpAmps.Comparator`
+- `templates/MslCases/ControlCircuit_182.mo` — 模拟与数字控制回路对比建模 — `Modelica.Electrical.Analog.Examples.OpAmps.ControlCircuit`
+- `templates/MslCases/Differentiator_44.mo` — 请基于 Modelica 标准库（MSL 4.0）构建一个反相微分放大器电路模型。该电路由一个梯形波电压源、一个微分放大 — `Modelica.Electrical.Analog.Examples.OpAmps.Differentiator`
+- `templates/MslCases/HighPass_45.mo` — 请基于 Modelica 标准库（MSL 4.0）构建一个反相高通滤波器电路模型。该电路核心由一个运算放大器微分电路模块 — `Modelica.Electrical.Analog.Examples.OpAmps.HighPass`
+- `templates/MslCases/Integrator_46.mo` — 请基于 Modelica 标准库（MSL 4.0）搭建一个反相积分放大器电路模型。系统由一个梯形波电压源、一个集成运算放 — `Modelica.Electrical.Analog.Examples.OpAmps.Integrator`
+- `templates/MslCases/InvertingAmplifier_47.mo` — 请基于 Modelica 标准库（MSL 4.0）搭建一个反相放大器电路模型。系统由一个梯形波电压源、一个接地端、一个反 — `Modelica.Electrical.Analog.Examples.OpAmps.InvertingAmplifier`
+- `templates/MslCases/InvertingSchmittTrigger_48.mo` — 请基于 Modelica 标准库（MSL 4.0）构建一个具有滞回特性的反相施密特触发器电路模型。系统由一个理想运算放大 — `Modelica.Electrical.Analog.Examples.OpAmps.InvertingSchmittTrigger`
+- `templates/MslCases/LCOscillator_49.mo` — 请基于 Modelica 标准库（MSL 4.0）构建一个基于运算放大器的 LC 振荡器电路模型。该电路旨在产生特定频率 — `Modelica.Electrical.Analog.Examples.OpAmps.LCOscillator`
+- `templates/MslCases/LowPass_50.mo` — 请基于 Modelica 标准库（MSL 4.0）构建一个反相低通滤波器电路模型。该系统由一个运算放大器电路模块、一个梯 — `Modelica.Electrical.Analog.Examples.OpAmps.LowPass`
+- `templates/MslCases/Multivibrator_51.mo` — 基于施密特触发器的多谐振荡器建模 — `Modelica.Electrical.Analog.Examples.OpAmps.Multivibrator`
+- `templates/MslCases/NonInvertingAmplifier_52.mo` — 请基于 Modelica 标准库（MSL 4.0）构建一个非反相放大器电路模型。系统由一个梯形电压源、一个增益为 2 的 — `Modelica.Electrical.Analog.Examples.OpAmps.NonInvertingAmplifier`
+- `templates/MslCases/SchmittTrigger_53.mo` — 请基于 Modelica 标准库（MSL 4.0）构建一个非反相施密特触发器电路，用于演示具有滞回特性的比较器功能。系统 — `Modelica.Electrical.Analog.Examples.OpAmps.SchmittTrigger`
+- `templates/MslCases/Subtracter_54.mo` — 请基于 Modelica 标准库（MSL 4.0）构建一个反相减法器电路模型。该电路利用运算放大器实现两个输入电压信号的 — `Modelica.Electrical.Analog.Examples.OpAmps.Subtracter`
+- `templates/MslCases/VoltageFollower_55.mo` — 请基于 Modelica 标准库（MSL 4.0）构建一个电压跟随器电路模型，用于验证运算放大器在单位增益配置下对输入信 — `Modelica.Electrical.Analog.Examples.OpAmps.VoltageFollower`
+- `templates/MslCases/OvervoltageProtection_56.mo` — 请基于 Modelica 标准库（MSL 4.0）构建一个用于演示齐纳二极管过压保护功能的电路模型。该电路由一个正弦电压 — `Modelica.Electrical.Analog.Examples.OvervoltageProtection`
+- `templates/MslCases/ParallelResonance_57.mo` — 请基于 Modelica 标准库（MSL 4.0）构建一个用于演示并联谐振电路瞬态特性的仿真模型。该模型包含两个完全独立 — `Modelica.Electrical.Analog.Examples.ParallelResonance`
+- `templates/MslCases/Rectifier_58.mo` — 三相六脉波二极管整流桥建模 — `Modelica.Electrical.Analog.Examples.Rectifier`
+- `templates/MslCases/Resistor_59.mo` — 带简单热网络的电阻电路建模 — `Modelica.Electrical.Analog.Examples.Resistor`
+- `templates/MslCases/ResonanceCircuits_60.mo` — 基于信号适配器的谐振电路建模 — `Modelica.Electrical.Analog.Examples.ResonanceCircuits`
+- `templates/MslCases/SeriesResonance_61.mo` — 请基于 Modelica 标准库（MSL 4.0）构建一个用于演示串联谐振电路瞬态特性的仿真模型。该模型包含两个完全相同 — `Modelica.Electrical.Analog.Examples.SeriesResonance`
+- `templates/MslCases/ShowSaturatingInductor_62.mo` — 请基于 Modelica 标准库（MSL 4.0）构建一个用于对比线性电感与饱和电感特性的电路仿真模型。系统由一个正弦电 — `Modelica.Electrical.Analog.Examples.ShowSaturatingInductor`
+- `templates/MslCases/ShowVariableResistor_63.mo` — 请基于 Modelica 标准库（MSL 4.0）构建一个用于验证可变电阻器特性的直流与交流混合测试电路。电路主要由一个 — `Modelica.Electrical.Analog.Examples.ShowVariableResistor`
+- `templates/MslCases/SimpleTriacCircuit_64.mo` — 请基于 Modelica 标准库（MSL 4.0）构建一个用于测试简单双向可控硅（SimpleTriac）特性的交流电路 — `Modelica.Electrical.Analog.Examples.SimpleTriacCircuit`
+- `templates/MslCases/SwitchWithArc_65.mo` — 请利用 Modelica 标准库（MSL 4.0）构建一个对比理想开关与带电弧开关特性的电路仿真模型。该模型包含两个完全 — `Modelica.Electrical.Analog.Examples.SwitchWithArc`
+- `templates/MslCases/ThyristorBehaviourTest_66.mo` — 请基于 Modelica 标准库（MSL 4.0）搭建一个晶闸管（Thyristor）行为演示电路。该电路旨在验证晶闸管 — `Modelica.Electrical.Analog.Examples.ThyristorBehaviourTest`

@@ -1,0 +1,33 @@
+# MSL cases: Mechanics.MultiBody
+
+- `templates/MslCases/RevoluteConstraint_247.mo` — 双体旋转约束对比系统建模 — `Modelica.Mechanics.MultiBody.Examples.Constraints.RevoluteConstraint`
+- `templates/MslCases/SphericalConstraint_248.mo` — 双体球面约束对比仿真 — `Modelica.Mechanics.MultiBody.Examples.Constraints.SphericalConstraint`
+- `templates/MslCases/UniversalConstraint_249.mo` — 万向节与万向约束的多体动力学对比仿真 — `Modelica.Mechanics.MultiBody.Examples.Constraints.UniversalConstraint`
+- `templates/MslCases/DoublePendulum_250.mo` — 请基于 Modelica 标准库（MSL 4.0）构建一个带有阻尼的双摆多体动力学模型。该系统由一个固定于世界坐标系的旋 — `Modelica.Mechanics.MultiBody.Examples.Elementary.DoublePendulum`
+- `templates/MslCases/ForceAndTorque_251.mo` — 请基于 Modelica 标准库（MSL 4.0）构建一个多体动力学仿真模型，用于演示力与力矩元件在固定坐标系下的应用。 — `Modelica.Mechanics.MultiBody.Examples.Elementary.ForceAndTorque`
+- `templates/MslCases/FreeBody_252.mo` — 请基于 Modelica 标准库（MSL 4.0）构建一个自由飞行刚体系统。系统包含一个质量为 1 kg 的刚体，其转动 — `Modelica.Mechanics.MultiBody.Examples.Elementary.FreeBody`
+- `templates/MslCases/HeatLosses_253.mo` — 请基于 Modelica 标准库（MSL 4.0）构建一个多体动力学与热传递耦合模型，用于演示机械元件耗散功率向环境的热 — `Modelica.Mechanics.MultiBody.Examples.Elementary.HeatLosses`
+- `templates/MslCases/InitSpringConstant_254.mo` — 请基于 Modelica 标准库（MSL 4.0）构建一个单自由度旋转机械系统模型，用于演示通过初始化计算确定弹簧刚度以 — `Modelica.Mechanics.MultiBody.Examples.Elementary.InitSpringConstant`
+- `templates/MslCases/LineForceWithTwoMasses_255.mo` — 带质量点的双摆阻尼系统建模 — `Modelica.Mechanics.MultiBody.Examples.Elementary.LineForceWithTwoMasses`
+- `templates/MslCases/Pendulum_256.mo` — 请基于 Modelica 标准库（MSL 4.0）构建一个带有阻尼的简单单摆多体动力学模型。该物理系统由一个世界坐标系、 — `Modelica.Mechanics.MultiBody.Examples.Elementary.Pendulum`
+- `templates/MslCases/PendulumWithSpringDamper_257.mo` — 请基于 Modelica 标准库（MSL 4.0）构建一个平面多体动力学模型，模拟一个受弹簧和阻尼器约束的滑块-曲柄混合 — `Modelica.Mechanics.MultiBody.Examples.Elementary.PendulumWithSpringDamper`
+- `templates/MslCases/PointGravityWithPointMasses2_258.mo` — 点质量刚体系统在点重力场中的自由运动 — `Modelica.Mechanics.MultiBody.Examples.Elementary.PointGravityWithPointMasses2`
+- `templates/MslCases/RollingWheel_259.mo` — 单轮在地面滚动的动力学仿真 — `Modelica.Mechanics.MultiBody.Examples.Elementary.RollingWheel`
+- `templates/MslCases/RollingWheelSetDriving_260.mo` — 受驱动扭矩作用的双轮滚动系统建模 — `Modelica.Mechanics.MultiBody.Examples.Elementary.RollingWheelSetDriving`
+- `templates/MslCases/RollingWheelSetPulling_261.mo` — 受外力牵引的双轮滚动系统建模 — `Modelica.Mechanics.MultiBody.Examples.Elementary.RollingWheelSetPulling`
+- `templates/MslCases/SpringDamperSystem_262.mo` — 请基于 Modelica 标准库（MSL 4.0）构建一个包含两个质量块、弹簧和阻尼器的平面多体动力学系统。系统由一个固 — `Modelica.Mechanics.MultiBody.Examples.Elementary.SpringDamperSystem`
+- `templates/MslCases/SpringMassSystem_263.mo` — 双弹簧-质量系统建模 — `Modelica.Mechanics.MultiBody.Examples.Elementary.SpringMassSystem`
+- `templates/MslCases/SpringWithMass_264.mo` — 请基于 Modelica 标准库（MSL 4.0）构建一个三维空间中的弹簧-质量悬挂系统模型。该系统由一个固定参考系、一 — `Modelica.Mechanics.MultiBody.Examples.Elementary.SpringWithMass`
+- `templates/MslCases/Surfaces_265.mo` — 请基于 Modelica 标准库（MSL 4.0）构建一个多体动力学可视化演示模型。系统包含一个世界坐标系（World） — `Modelica.Mechanics.MultiBody.Examples.Elementary.Surfaces`
+- `templates/MslCases/ThreeSprings_266.mo` — 请基于 Modelica 标准库（MSL 4.0）构建一个三维多体动力学系统，用于演示弹簧在串联与并联组合下的力学行为。 — `Modelica.Mechanics.MultiBody.Examples.Elementary.ThreeSprings`
+- `templates/MslCases/UserDefinedGravityField_267.mo` — 基于WGS84椭球模型的单摆重力场仿真 — `Modelica.Mechanics.MultiBody.Examples.Elementary.UserDefinedGravityField`
+- `templates/MslCases/EngineV6_analytic_272.mo` — 请基于 Modelica 标准库（MSL 4.0）构建一个 V6 发动机驱动旋转负载的仿真模型。系统由多体动力学部分和旋 — `Modelica.Mechanics.MultiBody.Examples.Loops.EngineV6_analytic`
+- `templates/MslCases/Fourbar1_273.mo` — 请基于 Modelica 标准库（MSL 4.0）构建一个包含一个运动学闭环的多体系统。该系统由一个固定参考系、三个圆柱 — `Modelica.Mechanics.MultiBody.Examples.Loops.Fourbar1`
+- `templates/MslCases/Fourbar2_274.mo` — 请基于 Modelica 标准库（MSL 4.0）构建一个包含运动学闭环的四杆机构模型。该机构由一个固定于世界坐标系的旋 — `Modelica.Mechanics.MultiBody.Examples.Loops.Fourbar2`
+- `templates/MslCases/Fourbar_analytic_275.mo` — 四杆机构运动学建模 — `Modelica.Mechanics.MultiBody.Examples.Loops.Fourbar_analytic`
+- `templates/MslCases/PlanarFourbar_276.mo` — 请基于 Modelica 标准库（MSL 4.0）构建一个平面四杆机构模型。该机构由四个刚性杆件和四个铰接点组成，形成一 — `Modelica.Mechanics.MultiBody.Examples.Loops.PlanarFourbar`
+- `templates/MslCases/PlanarLoops_analytic_277.mo` — 请基于 Modelica 标准库（MSL 4.0）构建一个具有三个串联平面运动学闭环的单自由度机构模型。该机构由一个固定 — `Modelica.Mechanics.MultiBody.Examples.Loops.PlanarLoops_analytic`
+- `templates/MslCases/ActuatedDrive_278.mo` — 请基于 Modelica 标准库（MSL 4.0）构建一个对比多体动力学与一维转子动力学的仿真模型。系统包含两个独立部分 — `Modelica.Mechanics.MultiBody.Examples.Rotational3DEffects.ActuatedDrive`
+- `templates/MslCases/GearConstraint_279.mo` — 请基于 Modelica 标准库（MSL 4.0）构建一个演示多体动力学齿轮约束与一维旋转系统等效性的仿真模型。 — `Modelica.Mechanics.MultiBody.Examples.Rotational3DEffects.GearConstraint`
+- `templates/MslCases/GyroscopicEffects_280.mo` — 验证转子一维模型与刚体圆柱模型在陀螺效应中的等价性 — `Modelica.Mechanics.MultiBody.Examples.Rotational3DEffects.GyroscopicEffects`
+- `templates/MslCases/MovingActuatedDrive_281.mo` — 基于 Rotor1D 的旋转驱动系统建模 — `Modelica.Mechanics.MultiBody.Examples.Rotational3DEffects.MovingActuatedDrive`

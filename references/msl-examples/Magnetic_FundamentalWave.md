@@ -1,0 +1,28 @@
+# MSL cases: Magnetic.FundamentalWave
+
+- `templates/MslCases/IMC_DOL_Polyphase_164.mo` — 多相鼠笼感应电机直接启动仿真 — `Modelica.Magnetic.FundamentalWave.Examples.BasicMachines.InductionMachines.ComparisonPolyphase.IMC_DOL_Polyphase`
+- `templates/MslCases/IMS_Start_Polyphase_165.mo` — 多相与三相绕线转子感应电机启动对比仿真 — `Modelica.Magnetic.FundamentalWave.Examples.BasicMachines.InductionMachines.ComparisonPolyphase.IMS_Start_Polyphase`
+- `templates/MslCases/IMC_Conveyor_208.mo` — 感应电机驱动传送带系统建模 — `Modelica.Magnetic.FundamentalWave.Examples.BasicMachines.InductionMachines.IMC_Conveyor`
+- `templates/MslCases/IMC_DOL_166.mo` — 鼠笼异步电动机直接启动仿真 — `Modelica.Magnetic.FundamentalWave.Examples.BasicMachines.InductionMachines.IMC_DOL`
+- `templates/MslCases/IMC_Initialize_167.mo` — 鼠笼感应电机稳态初始化与负载阶跃仿真 — `Modelica.Magnetic.FundamentalWave.Examples.BasicMachines.InductionMachines.IMC_Initialize`
+- `templates/MslCases/IMC_Inverter_168.mo` — 感应电机变频启动与负载阶跃仿真 — `Modelica.Magnetic.FundamentalWave.Examples.BasicMachines.InductionMachines.IMC_Inverter`
+- `templates/MslCases/IMC_Steinmetz_169.mo` — 单相电容启动感应电机仿真建模 — `Modelica.Magnetic.FundamentalWave.Examples.BasicMachines.InductionMachines.IMC_Steinmetz`
+- `templates/MslCases/IMC_Transformer_170.mo` — 鼠笼感应电机经变压器启动及直供切换仿真 — `Modelica.Magnetic.FundamentalWave.Examples.BasicMachines.InductionMachines.IMC_Transformer`
+- `templates/MslCases/IMC_YD_209.mo` — 三相鼠笼异步电动机星-三角启动仿真 — `Modelica.Magnetic.FundamentalWave.Examples.BasicMachines.InductionMachines.IMC_YD`
+- `templates/MslCases/IMC_withLosses_210.mo` — 带损耗的鼠笼异步电机负载阶跃仿真 — `Modelica.Magnetic.FundamentalWave.Examples.BasicMachines.InductionMachines.IMC_withLosses`
+- `templates/MslCases/IMS_Start_171.mo` — 绕线转子感应电机串电阻启动仿真 — `Modelica.Magnetic.FundamentalWave.Examples.BasicMachines.InductionMachines.IMS_Start`
+- `templates/MslCases/SMEE_Generator_Polyphase_172.mo` — 多相与三相电励磁同步发电机并网运行对比仿真 — `Modelica.Magnetic.FundamentalWave.Examples.BasicMachines.SynchronousMachines.ComparisonPolyphase.SMEE_Generator_Polyphase`
+- `templates/MslCases/SMPM_Inverter_Polyphase_173.mo` — 请基于 Modelica 标准库（MSL 4.0）构建一个多相永磁同步电机（PMSM）变频启动仿真模型，旨在对比三相系统 — `Modelica.Magnetic.FundamentalWave.Examples.BasicMachines.SynchronousMachines.ComparisonPolyphase.SMPM_Inverter_Polyphase`
+- `templates/MslCases/SMR_Inverter_Polyphase_174.mo` — 多相与三相同步磁阻电机启动及负载阶跃仿真 — `Modelica.Magnetic.FundamentalWave.Examples.BasicMachines.SynchronousMachines.ComparisonPolyphase.SMR_Inverter_Polyphase`
+- `templates/MslCases/SMEE_DOL_175.mo` — 电励磁同步电机直接启动仿真 — `Modelica.Magnetic.FundamentalWave.Examples.BasicMachines.SynchronousMachines.SMEE_DOL`
+- `templates/MslCases/SMEE_Generator_211.mo` — 电励磁同步发电机并网运行仿真 — `Modelica.Magnetic.FundamentalWave.Examples.BasicMachines.SynchronousMachines.SMEE_Generator`
+- `templates/MslCases/SMEE_LoadDump_212.mo` — 电励磁同步发电机带载甩负荷仿真 — `Modelica.Magnetic.FundamentalWave.Examples.BasicMachines.SynchronousMachines.SMEE_LoadDump`
+- `templates/MslCases/SMEE_Rectifier_213.mo` — 请基于 Modelica 标准库（MSL 4.0）构建一个电励磁同步发电机经三相整流器供电给直流负载的仿真模型。 — `Modelica.Magnetic.FundamentalWave.Examples.BasicMachines.SynchronousMachines.SMEE_Rectifier`
+- `templates/MslCases/SMPM_Braking_214.mo` — 永磁同步电机再生制动系统建模 — `Modelica.Magnetic.FundamentalWave.Examples.BasicMachines.SynchronousMachines.SMPM_Braking`
+- `templates/MslCases/SMPM_CurrentSource_215.mo` — 永磁同步电机恒流源驱动仿真 — `Modelica.Magnetic.FundamentalWave.Examples.BasicMachines.SynchronousMachines.SMPM_CurrentSource`
+- `templates/MslCases/SMPM_Inverter_216.mo` — 永磁同步电机V/f启动仿真对比 — `Modelica.Magnetic.FundamentalWave.Examples.BasicMachines.SynchronousMachines.SMPM_Inverter`
+- `templates/MslCases/SMPM_VoltageSource_217.mo` — 永磁同步电机矢量控制系统建模 — `Modelica.Magnetic.FundamentalWave.Examples.BasicMachines.SynchronousMachines.SMPM_VoltageSource`
+- `templates/MslCases/SMR_Inverter_218.mo` — 同步磁阻电机变频启动仿真 — `Modelica.Magnetic.FundamentalWave.Examples.BasicMachines.SynchronousMachines.SMR_Inverter`
+- `templates/MslCases/EddyCurrentLosses_219.mo` — 三相涡流损耗等效电路对比建模 — `Modelica.Magnetic.FundamentalWave.Examples.Components.EddyCurrentLosses`
+- `templates/MslCases/PolyphaseInductance_220.mo` — 三相电感电路与磁路等效性验证 — `Modelica.Magnetic.FundamentalWave.Examples.Components.PolyphaseInductance`
+- `templates/MslCases/SinglePhaseInductance_221.mo` — 单相电感磁电耦合仿真建模 — `Modelica.Magnetic.FundamentalWave.Examples.Components.SinglePhaseInductance`

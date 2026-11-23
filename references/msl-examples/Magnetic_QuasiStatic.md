@@ -1,0 +1,26 @@
+# MSL cases: Magnetic.QuasiStatic
+
+- `templates/MslCases/QuadraticCoreAirgap_222.mo` — 带气隙铁芯磁路建模 — `Modelica.Magnetic.QuasiStatic.FluxTubes.Examples.BasicExamples.QuadraticCoreAirgap`
+- `templates/MslCases/ToroidalCoreAirgap_223.mo` — 带气隙的环形铁芯磁路仿真 — `Modelica.Magnetic.QuasiStatic.FluxTubes.Examples.BasicExamples.ToroidalCoreAirgap`
+- `templates/MslCases/ToroidalCoreQuadraticCrossSection_224.mo` — 带气隙的环形铁芯磁路建模 — `Modelica.Magnetic.QuasiStatic.FluxTubes.Examples.BasicExamples.ToroidalCoreQuadraticCrossSection`
+- `templates/MslCases/CuboidSections_225.mo` — 请基于 Modelica 标准库（MSL 4.0）构建一个由四个长方体截面组成的闭合磁路模型。该磁路由底部、顶部、左侧和 — `Modelica.Magnetic.QuasiStatic.FluxTubes.Examples.FixedShapes.CuboidSections`
+- `templates/MslCases/CylinderSections_226.mo` — 请基于 Modelica 标准库（MSL 4.0）构建一个准静态磁通管电路模型，用于分析不同圆柱截面在交变磁场下的特性。 — `Modelica.Magnetic.QuasiStatic.FluxTubes.Examples.FixedShapes.CylinderSections`
+- `templates/MslCases/CylinderLeakage_227.mo` — 圆柱形磁路漏磁模型仿真 — `Modelica.Magnetic.QuasiStatic.FluxTubes.Examples.Leakage.CylinderLeakage`
+- `templates/MslCases/GeneralLeakage_228.mo` — 请基于 Modelica 标准库（MSL 4.0）中的准静态磁通管（QuasiStatic FluxTubes）组件，构 — `Modelica.Magnetic.QuasiStatic.FluxTubes.Examples.Leakage.GeneralLeakage`
+- `templates/MslCases/IMC_Characteristics_229.mo` — 三相鼠笼异步电机准静态特性曲线仿真 — `Modelica.Magnetic.QuasiStatic.FundamentalWave.Examples.BasicMachines.InductionMachines.IMC_Characteristics`
+- `templates/MslCases/IMC_Conveyor_230.mo` — 三相感应电机驱动传送带系统仿真 — `Modelica.Magnetic.QuasiStatic.FundamentalWave.Examples.BasicMachines.InductionMachines.IMC_Conveyor`
+- `templates/MslCases/IMC_DOL_231.mo` — 三相鼠笼异步电动机直接启动（DOL）仿真建模 — `Modelica.Magnetic.QuasiStatic.FundamentalWave.Examples.BasicMachines.InductionMachines.IMC_DOL`
+- `templates/MslCases/IMC_Initialize_232.mo` — 三相鼠笼异步电机稳态初始化与负载阶跃仿真 — `Modelica.Magnetic.QuasiStatic.FundamentalWave.Examples.BasicMachines.InductionMachines.IMC_Initialize`
+- `templates/MslCases/IMC_Transformer_233.mo` — 经变压器启动的鼠笼感应电机仿真 — `Modelica.Magnetic.QuasiStatic.FundamentalWave.Examples.BasicMachines.InductionMachines.IMC_Transformer`
+- `templates/MslCases/IMC_YD_234.mo` — 三相鼠笼感应电机星-三角启动仿真 — `Modelica.Magnetic.QuasiStatic.FundamentalWave.Examples.BasicMachines.InductionMachines.IMC_YD`
+- `templates/MslCases/IMC_withLosses_235.mo` — 含损耗的鼠笼式感应电机负载阶跃仿真 — `Modelica.Magnetic.QuasiStatic.FundamentalWave.Examples.BasicMachines.InductionMachines.IMC_withLosses`
+- `templates/MslCases/IMS_Characteristics_236.mo` — 绕线式感应电机特性曲线仿真 — `Modelica.Magnetic.QuasiStatic.FundamentalWave.Examples.BasicMachines.InductionMachines.IMS_Characteristics`
+- `templates/MslCases/IMS_Start_237.mo` — 带滑环三相感应电机的启动仿真 — `Modelica.Magnetic.QuasiStatic.FundamentalWave.Examples.BasicMachines.InductionMachines.IMS_Start`
+- `templates/MslCases/SMEE_Generator_238.mo` — 电励磁同步发电机瞬态与准静态模型对比 — `Modelica.Magnetic.QuasiStatic.FundamentalWave.Examples.BasicMachines.SynchronousMachines.SMEE_Generator`
+- `templates/MslCases/SMPM_CurrentSource_239.mo` — 永磁同步电机恒转矩启动仿真（瞬态与准静态对比） — `Modelica.Magnetic.QuasiStatic.FundamentalWave.Examples.BasicMachines.SynchronousMachines.SMPM_CurrentSource`
+- `templates/MslCases/SMPM_MTPA_240.mo` — 永磁同步电机最大转矩电流比（MTPA）准静态特性分析 — `Modelica.Magnetic.QuasiStatic.FundamentalWave.Examples.BasicMachines.SynchronousMachines.SMPM_MTPA`
+- `templates/MslCases/SMPM_Mains_241.mo` — 永磁同步电机电网直驱系统的瞬态与准静态对比建模 — `Modelica.Magnetic.QuasiStatic.FundamentalWave.Examples.BasicMachines.SynchronousMachines.SMPM_Mains`
+- `templates/MslCases/SMPM_OpenCircuit_242.mo` — 永磁同步电机开路运行瞬态与准静态模型对比仿真 — `Modelica.Magnetic.QuasiStatic.FundamentalWave.Examples.BasicMachines.SynchronousMachines.SMPM_OpenCircuit`
+- `templates/MslCases/SMR_CurrentSource_243.mo` — 同步磁阻电机恒转矩启动仿真 — `Modelica.Magnetic.QuasiStatic.FundamentalWave.Examples.BasicMachines.SynchronousMachines.SMR_CurrentSource`
+- `templates/MslCases/EddyCurrentLosses_244.mo` — 请基于 Modelica 标准库（MSL 4.0）构建一个三相准静态系统，用于对比两种等效电路下的涡流损耗模型。系统包含 — `Modelica.Magnetic.QuasiStatic.FundamentalWave.Examples.Components.EddyCurrentLosses`
+- `templates/MslCases/PolyphaseInductance_245.mo` — 多相电感电路的电气与磁路等效建模 — `Modelica.Magnetic.QuasiStatic.FundamentalWave.Examples.Components.PolyphaseInductance`
