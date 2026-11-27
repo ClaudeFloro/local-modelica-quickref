@@ -21,6 +21,21 @@ theta = -asin(C[1,3]);
 psi   = atan2(C[1,2], C[1,1]);
 ```
 
+- **Declarations** (rule 2b): angles and rates carry SI types; DCMs, unit vectors and quaternions are
+  dimensionless `Real`:
+
+```modelica
+import SI = Modelica.Units.SI;
+parameter SI.AngularVelocity n = 0.0011 "orbit rate";
+SI.Angle E[3] "3-2-1 Euler angles {phi, theta, psi}";
+SI.Angle alpha "angle between sun vector and body +x";
+SI.AngularVelocity w[3] "body rates in body axes";
+SI.Torque tau[3] "control torque";
+Real C[3, 3] "DCM (dimensionless)";
+Real s_b[3] "unit vector in body axes (dimensionless)";
+Real q[4] "quaternion, scalar first (dimensionless)";
+```
+
 - **Orbit frame (LVLH)**: z to the Earth centre, x along the velocity, y = negative orbit normal.
   Circular orbit in the inertial x-y plane, satellite on +x at t = 0, argument of latitude `u = n*time`:
 

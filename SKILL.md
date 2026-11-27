@@ -11,7 +11,7 @@ description: >-
   for names and arguments.
 metadata:
   short-description: Verified MSL 4.0 names and sysplorer-mcp tool arguments
-  version: 1.5.3
+  version: 1.5.4
   verified-against: Sysplorer 2026b, Modelica 4.0.0.TY.1, sysplorer-mcp 0.6
 ---
 
@@ -24,6 +24,12 @@ metadata:
 2. `Modelica.Units.SI` contains **unit types only** (Mass, Length, Force ...). It has no
    components. Components live in `Modelica.Mechanics.*`, `Modelica.Electrical.*`,
    `Modelica.Thermal.*`, `Modelica.Blocks.*`.
+2b. **Declare every quantity that has a unit with its SI type**, parameters and variables alike,
+   including short test models that are only a few equations: `SI.Angle E[3]`, `SI.Angle alpha`,
+   `SI.AngularVelocity w[3]`, `SI.Torque tau`, `SI.Inertia J` (with `import SI = Modelica.Units.SI;`
+   or the full `Modelica.Units.SI.` prefix). If no SI type fits, write `Real x(unit = "m3/s2")`.
+   Use plain `Real` only for dimensionless quantities (DCM, unit vector, quaternion, ratio, gain)
+   and say so in the description string. A unit written only in a comment does not count.
 3. **Never guess tool or argument names.** Copy the call shapes in
    `references/tool-args.md` exactly. If unsure, call `mcp.help` with the exact
    qualified name, e.g. `sysplorer-mcp-server:check_model`.
